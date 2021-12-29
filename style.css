@@ -13,10 +13,16 @@
 }
 
 header {
-    padding: 1rem;
+    padding: 1rem 5rem;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--second-color);
+}
+
+header h3 {
+    font-size: 2rem;
+    color: #fff;
 }
 
 .search {
@@ -40,6 +46,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 2rem 0;
 }
 
 .movie {
